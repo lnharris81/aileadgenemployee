@@ -1,0 +1,92 @@
+{
+  "campaign": "example-phoenix-roofers",
+  "offer": "Lead follow-up automation for home service companies",
+  "niche": "roofing companies",
+  "geography": {
+    "places": [
+      "Phoenix, AZ",
+      "Mesa, AZ",
+      "Scottsdale, AZ",
+      "Chandler, AZ",
+      "Glendale, AZ"
+    ],
+    "country": "US",
+    "radius_km": 20
+  },
+  "company": {
+    "keywords": [
+      "roof",
+      "roofing",
+      "gutter",
+      "exterior"
+    ],
+    "exclude_keywords": [
+      "supply",
+      "wholesale",
+      "manufactur",
+      "school",
+      "staffing"
+    ],
+    "employees_min": null,
+    "employees_max": 100,
+    "min_rating": 3.5,
+    "min_reviews": 3,
+    "require_website": true
+  },
+  "contacts": {
+    "titles": [
+      "owner",
+      "founder",
+      "president",
+      "general manager",
+      "office manager"
+    ],
+    "seniorities": [
+      "owner",
+      "founder",
+      "c_suite",
+      "manager"
+    ],
+    "accept_role_email": true,
+    "prefer_personal_email": true
+  },
+  "signals": {
+    "bonus": {
+      "no_chat_widget": 10,
+      "no_booking_widget": 10,
+      "site_stale": 5,
+      "hiring": 5
+    }
+  },
+  "scoring": {
+    "qualify_threshold": 40,
+    "weights": {}
+  },
+  "sources": {
+    "osm_categories": [
+      "roofer"
+    ],
+    "osm_tags": [
+      "craft=roofer",
+      "shop=roofing"
+    ],
+    "places_queries": [
+      "roofer",
+      "roofing company",
+      "roof repair",
+      "roof replacement"
+    ],
+    "places_cell_km": 5,
+    "apollo_keywords": [
+      "roofing"
+    ],
+    "apollo_employee_ranges": [
+      "1,10",
+      "11,50",
+      "51,100"
+    ]
+  },
+  "targets": {
+    "leads": 800
+  }
+}

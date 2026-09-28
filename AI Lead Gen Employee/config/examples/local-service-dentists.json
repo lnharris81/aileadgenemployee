@@ -1,0 +1,95 @@
+{
+  "campaign": "example-austin-dentists",
+  "offer": "AI receptionist that answers calls and books appointments 24/7",
+  "niche": "dental practices",
+  "geography": {
+    "places": [
+      "Austin, TX",
+      "Round Rock, TX",
+      "Cedar Park, TX"
+    ],
+    "country": "US",
+    "radius_km": 25
+  },
+  "company": {
+    "keywords": [
+      "dental",
+      "dentist",
+      "orthodont",
+      "endodont",
+      "periodont",
+      "oral surgery"
+    ],
+    "exclude_keywords": [
+      "supply",
+      "laboratory",
+      "lab ",
+      "school",
+      "insurance",
+      "staffing",
+      "recruit"
+    ],
+    "employees_min": null,
+    "employees_max": 50,
+    "min_rating": null,
+    "min_reviews": 5,
+    "require_website": true
+  },
+  "contacts": {
+    "titles": [
+      "owner",
+      "founder",
+      "dentist",
+      "practice manager",
+      "office manager",
+      "dds",
+      "dmd"
+    ],
+    "seniorities": [
+      "owner",
+      "founder",
+      "c_suite",
+      "partner",
+      "director",
+      "manager"
+    ],
+    "accept_role_email": true,
+    "prefer_personal_email": true
+  },
+  "signals": {
+    "bonus": {
+      "no_booking_widget": 15,
+      "no_chat_widget": 10,
+      "site_stale": 5,
+      "email_marketing": -5
+    }
+  },
+  "scoring": {
+    "qualify_threshold": 40,
+    "weights": {}
+  },
+  "sources": {
+    "osm_categories": [
+      "dentist"
+    ],
+    "osm_tags": [],
+    "places_queries": [
+      "dentist",
+      "dental office",
+      "family dentistry",
+      "orthodontist"
+    ],
+    "places_cell_km": 4,
+    "apollo_keywords": [
+      "dental"
+    ],
+    "apollo_employee_ranges": [
+      "1,10",
+      "11,20",
+      "21,50"
+    ]
+  },
+  "targets": {
+    "leads": 1000
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "campaign": "example-manchester-accountants",
+  "offer": "Bookkeeping automation for small practices",
+  "niche": "accounting and bookkeeping practices",
+  "geography": {
+    "places": [
+      "Manchester, UK",
+      "Salford, UK",
+      "Stockport, UK"
+    ],
+    "country": "GB",
+    "radius_km": 15
+  },
+  "company": {
+    "keywords": [
+      "accountant",
+      "accounting",
+      "bookkeep",
+      "tax",
+      "chartered"
+    ],
+    "exclude_keywords": [
+      "university",
+      "college",
+      "recruit",
+      "software"
+    ],
+    "employees_min": null,
+    "employees_max": 50,
+    "min_rating": null,
+    "min_reviews": null,
+    "require_website": true
+  },
+  "contacts": {
+    "titles": [
+      "partner",
+      "director",
+      "owner",
+      "practice manager",
+      "principal"
+    ],
+    "seniorities": [
+      "owner",
+      "founder",
+      "partner",
+      "director",
+      "c_suite"
+    ],
+    "accept_role_email": true,
+    "prefer_personal_email": true
+  },
+  "signals": {
+    "bonus": {
+      "no_chat_widget": 8,
+      "site_stale": 10,
+      "cms_wordpress": 3
+    }
+  },
+  "scoring": {
+    "qualify_threshold": 40,
+    "weights": {}
+  },
+  "sources": {
+    "osm_categories": [
+      "accountant"
+    ],
+    "osm_tags": [
+      "office=accountant",
+      "office=tax_advisor"
+    ],
+    "places_queries": [
+      "accountant",
+      "accountancy firm",
+      "bookkeeper",
+      "chartered accountants"
+    ],
+    "places_cell_km": 3,
+    "apollo_keywords": [
+      "accounting"
+    ],
+    "apollo_employee_ranges": [
+      "1,10",
+      "11,50"
+    ]
+  },
+  "targets": {
+    "leads": 500
+  }
+}

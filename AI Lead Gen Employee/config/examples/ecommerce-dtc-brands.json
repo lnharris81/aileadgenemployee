@@ -1,0 +1,89 @@
+{
+  "campaign": "example-shopify-supplement-brands",
+  "offer": "UGC video ads for DTC brands",
+  "niche": "direct-to-consumer supplement and wellness brands",
+  "geography": {
+    "places": [
+      "United States",
+      "Canada",
+      "United Kingdom"
+    ],
+    "country": "US",
+    "radius_km": 25
+  },
+  "company": {
+    "keywords": [
+      "supplement",
+      "wellness",
+      "nutrition",
+      "vitamin",
+      "protein",
+      "skincare"
+    ],
+    "exclude_keywords": [
+      "pharmacy",
+      "hospital",
+      "clinic",
+      "wholesale",
+      "distributor"
+    ],
+    "employees_min": 2,
+    "employees_max": 150,
+    "min_rating": null,
+    "min_reviews": null,
+    "require_website": true
+  },
+  "contacts": {
+    "titles": [
+      "founder",
+      "ceo",
+      "owner",
+      "head of marketing",
+      "cmo",
+      "ecommerce manager",
+      "brand manager"
+    ],
+    "seniorities": [
+      "owner",
+      "founder",
+      "c_suite",
+      "head",
+      "director",
+      "manager"
+    ],
+    "accept_role_email": true,
+    "prefer_personal_email": true
+  },
+  "signals": {
+    "bonus": {
+      "cms_shopify": 15,
+      "ecommerce": 10,
+      "analytics_pixel": 5,
+      "no_reviews_widget": 5
+    }
+  },
+  "scoring": {
+    "qualify_threshold": 40,
+    "weights": {}
+  },
+  "sources": {
+    "osm_categories": [],
+    "osm_tags": [],
+    "places_queries": [],
+    "places_cell_km": null,
+    "apollo_keywords": [
+      "supplements",
+      "nutrition",
+      "wellness",
+      "skincare"
+    ],
+    "apollo_employee_ranges": [
+      "1,10",
+      "11,50",
+      "51,200"
+    ]
+  },
+  "targets": {
+    "leads": 1000
+  }
+}

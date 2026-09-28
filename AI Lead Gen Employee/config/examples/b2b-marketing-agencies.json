@@ -1,0 +1,89 @@
+{
+  "campaign": "example-saas-marketing-agencies",
+  "offer": "AI SDR that books meetings for agencies",
+  "niche": "digital marketing agencies with 10 to 200 staff",
+  "geography": {
+    "places": [
+      "United States"
+    ],
+    "country": "US",
+    "radius_km": 25
+  },
+  "company": {
+    "keywords": [
+      "marketing",
+      "agency",
+      "advertising",
+      "growth",
+      "performance",
+      "media"
+    ],
+    "exclude_keywords": [
+      "staffing",
+      "recruit",
+      "university",
+      "nonprofit"
+    ],
+    "employees_min": 10,
+    "employees_max": 200,
+    "min_rating": null,
+    "min_reviews": null,
+    "require_website": true
+  },
+  "contacts": {
+    "titles": [
+      "founder",
+      "ceo",
+      "owner",
+      "head of sales",
+      "vp sales",
+      "managing director",
+      "partner"
+    ],
+    "seniorities": [
+      "owner",
+      "founder",
+      "c_suite",
+      "vp",
+      "head",
+      "partner"
+    ],
+    "accept_role_email": false,
+    "prefer_personal_email": true
+  },
+  "signals": {
+    "bonus": {
+      "hiring": 10,
+      "email_marketing": 5,
+      "no_chat_widget": 5
+    }
+  },
+  "scoring": {
+    "qualify_threshold": 40,
+    "weights": {}
+  },
+  "sources": {
+    "osm_categories": [],
+    "osm_tags": [],
+    "places_queries": [
+      "marketing agency",
+      "digital marketing agency",
+      "advertising agency"
+    ],
+    "places_cell_km": null,
+    "apollo_keywords": [
+      "marketing agency",
+      "advertising agency",
+      "digital marketing"
+    ],
+    "apollo_employee_ranges": [
+      "11,20",
+      "21,50",
+      "51,100",
+      "101,200"
+    ]
+  },
+  "targets": {
+    "leads": 1500
+  }
+}
