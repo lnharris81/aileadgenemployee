@@ -1,41 +1,51 @@
 {
-  "campaign": "",
-  "offer": "",
-  "niche": "",
+  "campaign": "flawlessflow-home-services",
+  "offer": "Flawless Flow Consulting: done-for-you automated follow-up and missed-call text-back systems ($5k) so service businesses stop losing booked jobs",
+  "niche": "Owner-operated home service contractors (HVAC, plumbing, roofing, electrical) that run on inbound calls and form leads and have no chat, booking, or after-hours follow-up in place",
   "geography": {
     "places": [],
     "country": "US",
-    "radius_km": 15
+    "radius_km": 20
   },
   "company": {
-    "keywords": [],
-    "exclude_keywords": [],
+    "keywords": ["hvac", "heating", "air conditioning", "cooling", "furnace", "plumb", "drain", "water heater", "roof", "roofing", "gutter", "electric", "electrician", "contractor", "emergency", "24/7"],
+    "exclude_keywords": ["supply", "supplies", "wholesale", "distributor", "manufactur", "school", "training", "staffing", "franchise opportunit", "home depot", "lowe's"],
     "employees_min": null,
-    "employees_max": null,
-    "min_rating": null,
-    "min_reviews": null,
-    "require_website": false
+    "employees_max": 50,
+    "min_rating": 3.5,
+    "min_reviews": 5,
+    "require_website": true
   },
   "contacts": {
-    "titles": [],
-    "seniorities": [],
+    "titles": ["owner", "founder", "co-owner", "president", "ceo", "general manager", "operations manager", "office manager"],
+    "seniorities": ["owner", "founder", "c_suite", "manager"],
     "accept_role_email": true,
     "prefer_personal_email": true
   },
   "signals": {
-    "bonus": {}
+    "bonus": {
+      "no_chat_widget": 12,
+      "no_booking_widget": 12,
+      "no_ai_or_chatbot": 8,
+      "no_email_marketing": 5,
+      "has_form": 5,
+      "analytics_pixel": 5,
+      "site_stale": 5,
+      "hiring": 5,
+      "cms_ghl": -15
+    }
   },
   "scoring": {
     "qualify_threshold": 40,
     "weights": {}
   },
   "sources": {
-    "osm_categories": [],
+    "osm_categories": ["hvac", "plumber", "roofer", "electrician"],
     "osm_tags": [],
-    "places_queries": [],
-    "places_cell_km": null,
-    "apollo_keywords": [],
-    "apollo_employee_ranges": []
+    "places_queries": ["hvac contractor", "air conditioning repair", "plumber", "emergency plumber", "roofing contractor", "electrician"],
+    "places_cell_km": 5,
+    "apollo_keywords": ["hvac", "plumbing", "roofing", "electrical contractor"],
+    "apollo_employee_ranges": ["1,10", "11,50"]
   },
   "targets": {
     "leads": 500
