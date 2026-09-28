@@ -1,0 +1,11 @@
+# secrets
+.env
+# lead store and outputs (contain personal data)
+data/leadgen.db
+data/leadgen.db-*
+data/exports/
+data/raw/
+# python
+__pycache__/
+*.pyc
+.DS_Store

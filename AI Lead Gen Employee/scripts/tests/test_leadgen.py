@@ -88,6 +88,9 @@ class TestDb(unittest.TestCase):
         self.conn = db.connect(os.path.join(_TMP, "t_db.db"))
         self.conn.execute("DELETE FROM contacts"); self.conn.execute("DELETE FROM companies"); self.conn.execute("DELETE FROM suppression")
 
+    def tearDown(self):
+        self.conn.close()
+
     def test_company_merge(self):
         i, new = db.upsert_company(self.conn, {"name": "Joes Dental", "domain": "joes.com", "website": "https://joes.com", "city": "Austin"}, "osm")
         j, new2 = db.upsert_company(self.conn, {"name": "Joe's Dental LLC", "domain": "joes.com", "phone": "+15125550199", "rating": 4.5}, "places")
