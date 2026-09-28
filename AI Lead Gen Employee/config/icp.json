@@ -1,0 +1,91 @@
+{
+  "campaign": "flawlessflow-bath-remodelers",
+  "offer": "FlawlessFlow services for bathroom remodeling companies",
+  "niche": "bathroom and kitchen-and-bath remodeling companies",
+  "geography": {
+    "places": [
+      "Boise, ID",
+      "Las Vegas, NV",
+      "Tampa, FL",
+      "Jacksonville, FL"
+    ],
+    "country": "US",
+    "radius_km": 25
+  },
+  "company": {
+    "keywords": [
+      "bath",
+      "bathroom",
+      "remodel",
+      "renovation",
+      "kitchen and bath",
+      "shower",
+      "tile"
+    ],
+    "exclude_keywords": [
+      "supply",
+      "wholesale",
+      "manufactur",
+      "grocery",
+      "furniture store",
+      "home improvement store",
+      "real estate",
+      "staffing",
+      "school"
+    ],
+    "employees_min": null,
+    "employees_max": 100,
+    "min_rating": 3.5,
+    "min_reviews": 3,
+    "require_website": true
+  },
+  "contacts": {
+    "titles": [
+      "owner",
+      "founder",
+      "president",
+      "ceo",
+      "general manager",
+      "office manager"
+    ],
+    "seniorities": [
+      "owner",
+      "founder",
+      "c_suite",
+      "manager"
+    ],
+    "accept_role_email": true,
+    "prefer_personal_email": true
+  },
+  "signals": {
+    "bonus": {
+      "no_chat_widget": 10,
+      "no_booking_widget": 10,
+      "site_stale": 5,
+      "hiring": 5
+    }
+  },
+  "scoring": {
+    "qualify_threshold": 40,
+    "weights": {}
+  },
+  "sources": {
+    "osm_categories": [],
+    "osm_tags": [],
+    "places_queries": [
+      "bathroom remodeler",
+      "kitchen and bath remodeling"
+    ],
+    "places_cell_km": null,
+    "apollo_keywords": [
+      "bathroom remodeling"
+    ],
+    "apollo_employee_ranges": [
+      "1,10",
+      "11,50"
+    ]
+  },
+  "targets": {
+    "leads": 400
+  }
+}

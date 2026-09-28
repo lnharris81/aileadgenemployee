@@ -1,0 +1,8 @@
+# Secrets and generated lead data (contains contact info) - never commit
+.env
+**/data/leadgen.db*
+**/data/exports/
+**/data/imports/
+**/data/*.log
+__pycache__/
+*.pyc
