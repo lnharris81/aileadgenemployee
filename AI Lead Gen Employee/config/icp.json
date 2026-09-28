@@ -1,15 +1,51 @@
 {
-  "campaign": "flawlessflow-home-services",
+  "campaign": "flawlessflow-sunbelt-home-services",
   "offer": "Flawless Flow Consulting: done-for-you automated follow-up and missed-call text-back systems ($5k) so service businesses stop losing booked jobs",
   "niche": "Owner-operated home service contractors (HVAC, plumbing, roofing, electrical) that run on inbound calls and form leads and have no chat, booking, or after-hours follow-up in place",
   "geography": {
-    "places": [],
+    "places": [
+      "Phoenix, AZ",
+      "Dallas, TX",
+      "Fort Worth, TX",
+      "Houston, TX",
+      "Atlanta, GA",
+      "Tampa, FL"
+    ],
     "country": "US",
     "radius_km": 20
   },
   "company": {
-    "keywords": ["hvac", "heating", "air conditioning", "cooling", "furnace", "plumb", "drain", "water heater", "roof", "roofing", "gutter", "electric", "electrician", "contractor", "emergency", "24/7"],
-    "exclude_keywords": ["supply", "supplies", "wholesale", "distributor", "manufactur", "school", "training", "staffing", "franchise opportunit", "home depot", "lowe's"],
+    "keywords": [
+      "hvac",
+      "heating",
+      "air conditioning",
+      "cooling",
+      "furnace",
+      "plumb",
+      "drain",
+      "water heater",
+      "roof",
+      "roofing",
+      "gutter",
+      "electric",
+      "electrician",
+      "contractor",
+      "emergency",
+      "24/7"
+    ],
+    "exclude_keywords": [
+      "supply",
+      "supplies",
+      "wholesale",
+      "distributor",
+      "manufactur",
+      "school",
+      "training",
+      "staffing",
+      "franchise opportunit",
+      "home depot",
+      "lowe's"
+    ],
     "employees_min": null,
     "employees_max": 50,
     "min_rating": 3.5,
@@ -17,8 +53,22 @@
     "require_website": true
   },
   "contacts": {
-    "titles": ["owner", "founder", "co-owner", "president", "ceo", "general manager", "operations manager", "office manager"],
-    "seniorities": ["owner", "founder", "c_suite", "manager"],
+    "titles": [
+      "owner",
+      "founder",
+      "co-owner",
+      "president",
+      "ceo",
+      "general manager",
+      "operations manager",
+      "office manager"
+    ],
+    "seniorities": [
+      "owner",
+      "founder",
+      "c_suite",
+      "manager"
+    ],
     "accept_role_email": true,
     "prefer_personal_email": true
   },
@@ -40,12 +90,32 @@
     "weights": {}
   },
   "sources": {
-    "osm_categories": ["hvac", "plumber", "roofer", "electrician"],
+    "osm_categories": [
+      "hvac",
+      "plumber",
+      "roofer",
+      "electrician"
+    ],
     "osm_tags": [],
-    "places_queries": ["hvac contractor", "air conditioning repair", "plumber", "emergency plumber", "roofing contractor", "electrician"],
+    "places_queries": [
+      "hvac contractor",
+      "air conditioning repair",
+      "plumber",
+      "emergency plumber",
+      "roofing contractor",
+      "electrician"
+    ],
     "places_cell_km": 5,
-    "apollo_keywords": ["hvac", "plumbing", "roofing", "electrical contractor"],
-    "apollo_employee_ranges": ["1,10", "11,50"]
+    "apollo_keywords": [
+      "hvac",
+      "plumbing",
+      "roofing",
+      "electrical contractor"
+    ],
+    "apollo_employee_ranges": [
+      "1,10",
+      "11,50"
+    ]
   },
   "targets": {
     "leads": 500
