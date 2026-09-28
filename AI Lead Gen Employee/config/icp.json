@@ -1,0 +1,43 @@
+{
+  "campaign": "",
+  "offer": "",
+  "niche": "",
+  "geography": {
+    "places": [],
+    "country": "US",
+    "radius_km": 15
+  },
+  "company": {
+    "keywords": [],
+    "exclude_keywords": [],
+    "employees_min": null,
+    "employees_max": null,
+    "min_rating": null,
+    "min_reviews": null,
+    "require_website": false
+  },
+  "contacts": {
+    "titles": [],
+    "seniorities": [],
+    "accept_role_email": true,
+    "prefer_personal_email": true
+  },
+  "signals": {
+    "bonus": {}
+  },
+  "scoring": {
+    "qualify_threshold": 40,
+    "weights": {}
+  },
+  "sources": {
+    "osm_categories": [],
+    "osm_tags": [],
+    "places_queries": [],
+    "places_cell_km": null,
+    "apollo_keywords": [],
+    "apollo_employee_ranges": []
+  },
+  "targets": {
+    "leads": 500
+  }
+}
