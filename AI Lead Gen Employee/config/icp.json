@@ -1,26 +1,27 @@
 {
-  "campaign": "flawlessflow-bath-remodelers",
-  "offer": "FlawlessFlow services for bathroom remodeling companies",
-  "niche": "bathroom and kitchen-and-bath remodeling companies",
+  "campaign": "flawlessflow-home-remodelers",
+  "offer": "FlawlessFlow services for home remodeling companies",
+  "niche": "home remodeling companies (kitchen, bath, whole-home renovation)",
   "geography": {
     "places": [
-      "Boise, ID",
-      "Las Vegas, NV",
-      "Tampa, FL",
-      "Jacksonville, FL"
+      "New York, NY",
+      "Los Angeles, CA",
+      "Chicago, IL",
+      "Houston, TX",
+      "Phoenix, AZ"
     ],
     "country": "US",
     "radius_km": 25
   },
   "company": {
     "keywords": [
-      "bath",
-      "bathroom",
       "remodel",
       "renovation",
-      "kitchen and bath",
-      "shower",
-      "tile"
+      "kitchen",
+      "bath",
+      "home improvement",
+      "design build",
+      "contractor"
     ],
     "exclude_keywords": [
       "supply",
@@ -59,22 +60,27 @@
   },
   "signals": {
     "bonus": {
-      "no_chat_widget": 10,
+      "chat_widget": -100,
+      "ai_or_chatbot": -100,
+      "no_chat_widget": 30,
       "no_booking_widget": 10,
       "site_stale": 5,
       "hiring": 5
     }
   },
   "scoring": {
-    "qualify_threshold": 40,
+    "qualify_threshold": 60,
     "weights": {}
   },
   "sources": {
     "osm_categories": [],
     "osm_tags": [],
     "places_queries": [
-      "bathroom remodeler",
-      "kitchen and bath remodeling"
+      "home remodeling contractor",
+      "remodeling company",
+      "kitchen and bathroom remodeler",
+      "home renovation company",
+      "design build remodeler"
     ],
     "places_cell_km": null,
     "apollo_keywords": [
@@ -86,6 +92,6 @@
     ]
   },
   "targets": {
-    "leads": 400
+    "leads": 500
   }
 }
