@@ -32,7 +32,10 @@
       "home improvement store",
       "real estate",
       "staffing",
-      "school"
+      "school",
+      "roofing_contractor",
+      "home_improvement_store",
+      "furniture_store"
     ],
     "employees_min": null,
     "employees_max": 100,
